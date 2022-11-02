@@ -1,0 +1,166 @@
+.sectionsheading {
+    width: 90%;
+    height: 70%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contents {
+    display: flex;
+    gap: 40px;
+    height: 42px;
+    align-items: center;
+}
+
+.textcomputer {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.usernamepicture {
+    width: 300px;
+    height: 300px;
+    right: 24px;
+    margin-right: -100px;
+    border-radius: 150px;
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    /* border: green .9 solid; */
+    box-shadow: 0 0 20px .4px #fff;
+}
+
+.portfoliotags {
+    color: #fff;
+    font-size: 40px;
+    /* margin-top: 100px;
+    margin-left: 5%; */
+    /* position: absolute; */
+    /* left: 400px; */
+    letter-spacing: .3em;
+    width: 600px;
+    animation: typing 4s steps(22) alternate;
+    white-space: now wrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+
+/* loading animation  */
+
+.loadingtextwindows {
+    white-space: now wrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    letter-spacing: .3em;
+}
+
+
+/* resume information */
+
+.resumeinformation {
+    width: 100vw;
+}
+
+
+/* usermarlon information */
+
+.burgericons {
+    display: none;
+}
+
+.portfoliotags:hover {
+    outline-offset: -25px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@media screen and (max-width:1175px) {
+    .textcomputer {
+        display: none;
+    }
+}
+
+@media screen and (max-width:915px) {
+    .contents {
+        display: none;
+        position: absolute;
+        background: #000000;
+        top: 100%;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        left: 0;
+        z-index: 1;
+        padding: 16px;
+        gap: 8px;
+        box-shadow: 0 4px 6px 0 rgba(0, 255, 0, 0.16);
+    }
+    .links {
+        width: 100%;
+        text-align: center;
+        background: none;
+        border: none;
+        font-size: 14px;
+    }
+    .burgericons {
+        display: block;
+        ;
+    }
+    .links-active {
+        color: green;
+    }
+}
+
+@media screen and (max-width:1310px) {
+    .footercontainer {
+        display: none;
+    }
+    .containeforpojectcontainter {
+        width: 100%;
+    }
+    .contentsforproject {
+        height: 100vh;
+    }
+    .footer {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:1104px) {
+    .photos-sideliner {
+        display: none;
+    }
+}
+
+@media screen and (max-width:969px) {
+    .logoprorjct {
+        width: 30px;
+    }
+}
+
+@media screen and(max-width:1256) {
+    .learmore {
+        display: none;
+    }
+}
+
+@media screen and (max-width:681px) {
+    .portfoliotags {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:1052px) {
+    #frontText-1 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.card-body {
+    border: none;
+}
+
+.reset-34 {
+    background: green !important;
+}
+
+.select {
+    padding: 12px;
+    border-radius: 4px;
+    border: green 1px solid;
+    outline: none;
+}
+
+.col-md-6 {
+    position: relative;
+    font-family: arial;
+}
+
+.col-md-6 select {
+    /* display: none; */
+}
+
+.col-md-6-selected {
+    background-color: dodgerblue;
+}

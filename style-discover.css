@@ -1,0 +1,275 @@
+.newcontainer {
+    width: 100%;
+    min-height: 100vh;
+    /* background: #000000; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    gap: 60px;
+}
+
+.dicovertext {
+    /* background-color: green; */
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 100px;
+    font-size: 64px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 38px;
+    text-align: left;
+    z-index: 1;
+}
+
+#personal-34 {
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    height: 789px;
+}
+
+.lorem {
+    width: 50%;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.photos-sideliner {
+    position: absolute;
+    background: url(image/Untitled-3.png) no-repeat center/cover;
+    width: 400px;
+    height: 400px;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 50px;
+    border-radius: 200px;
+    border: #350072 1px solid;
+    top: 300px;
+}
+
+.shadowcontainer {
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+/* ################################################# LINK FOR THE USER ON FACEBOOK ################################################################################# */
+
+.formformtheuser {
+    width: 30%;
+    height: 300px;
+    background-color: #232733;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    z-index: 1;
+}
+
+#users {
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #1f65e5;
+}
+
+#imageicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+#imageicon:hover {
+    background: rgba(206, 8, 8, 0.623);
+    padding: 4px 4px;
+}
+
+.backgroundgradiant {
+    background: #00000002;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+
+/* ###############################-------------facebookandgmail---------------------################## */
+
+.facebookandgmail {
+    width: 100%;
+    background: green;
+    position: absolute;
+    bottom: 3px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.gmailfb {
+    width: 30px;
+    height: 20px;
+}
+
+
+/* ################################FOOTERRRRRRR################################# */
+
+.footercontainer {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+}
+
+.whatsupguys {
+    width: 250px;
+    height: 60px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, .04);
+    color: #fff;
+    border: #fff 1px solid;
+    font-size: 18px;
+    text-decoration: none;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.whatsupguys:hover {
+    background: #fff;
+    color: black;
+    border: #350072 1px solid;
+}
+
+@keyframes whatsupguys {
+    0% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+    25% {
+        top: 0px;
+        left: 100px;
+        background: blue;
+    }
+    50% {
+        top: 100px;
+        left: 100px;
+        background: yellow;
+    }
+    75% {
+        top: 100px;
+        left: 0px;
+        background: green;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+}
+
+.whatsupguys:active {
+    transform: scale(.96);
+    transition: .2s;
+}
+
+
+/* ##########################HTML CSS JAVASCRIPT########### */
+
+.containeforpojectcontainter {
+    background: #0f2027;
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* border-top: green 4px solid; */
+    box-shadow: 0 0 12px 0 green;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    gap: 20px;
+}
+
+.myproject {
+    color: orange;
+    margin-left: 100px;
+    bottom: 300px;
+    position: absolute;
+    width: calc(100%-100px);
+    cursor: pointer;
+    font-family: 'Alkalami', serif;
+    font-size: 20px;
+}
+
+.myproject:hover {
+    text-decoration: underline cornflowerblue;
+}
+
+.logoprorjct {
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.logoprorjct:hover {
+    border-radius: 4px;
+}
+
+.logoprorjct:active {
+    transform: scale(.96);
+    transition: .2s;
+}
+
+.contentsforproject {
+    margin-top: 100px;
+    gap: 50px;
+}
+
+
+/* ##############fotter####### */
+
+.footer {
+    background-color: #232733;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+.group12 {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.logofunctions {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 80px;
+}

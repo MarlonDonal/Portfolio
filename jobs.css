@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+#jobs-bg {
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+    height: 800px;
+    z-index: 1;
+}
+
+#frontText-1 {
+    font-size: 80px;
+    color: #DBA800;
+    text-align: center;
+    margin-top: 100px;
+    /* background: rgba(240, 13, 13, 0.315); */
+    z-index: 1;
+    /* font-family: 'Alkalami', serif; */
+    font-family: 'Gemunu Libre', sans-serif;
+    padding: 20px;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.contents-1 {
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jobs {
+    display: flex;
+}
+
+.cotainerserver {
+    z-index: 1;
+    width: 1024px;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+
+/* .therolandbg {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.theskillsandsalary {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} */
+
+.mf-69 {
+    /* background-color: blue; */
+    color: #fff;
+    width: 450px;
+    max-width: 90%;
+    padding: 32px;
+    line-height: 1.6;
+    text-align: start;
+}
+
+.word {
+    font-size: 22px;
+    margin-bottom: 16px;
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.word:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin-left: 12px;
+    word-wrap: break-word;
+}
